@@ -1,0 +1,384 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  overflow-x:hidden;
+}
+nav button{
+  width:100px;
+  background:#EA2027;
+  border:none;
+  outline:none;
+  border-radius:5px;
+  font-size:16px;
+  color:white;
+  height:40px;
+
+}
+main{
+  width:100vw;
+  height:100vh;
+  background-image:linear-gradient(rgba(5,0,0.5),rgba(0,10,0,0.6)),url("https://i.ibb.co/zZY5LPb/1-5lyav-S59maz-OFnb55-Z6zn-Q.png");
+  background-repeat:none;
+  background-position:center;
+  background-size:cover;
+  box-sizing:border-box;
+}
+main nav{
+  display:flex;
+  justify-content:space-between;
+  padding:36px;
+}
+.net h2{
+color:#EA2027;
+font-size:30px;
+}
+.red{
+  width:900px;
+  height:400px;
+margin:0 auto;
+margin-top:130px;
+}
+.red h1,h4,p{
+  color:white;
+  margin:20px;
+  text-align:center;
+  
+}
+.red h1{
+  font-size:60px;
+  letter-spacing:5px;
+}
+.red h4{
+  font-size:30px;
+}
+.red p{
+  font-size:20px;
+}
+.send{
+  text-align:center;
+  width:800px;
+  margin:0 auto;
+}
+.send input{
+  width:600px;
+ height:80px;
+ display:inline-block;
+ border:none;
+ outline:none;
+ font-size:18px;
+ border-radius:0px 5px 5px px;
+text-align:left;
+padding-top:2px;
+}
+.send button{
+  width:200px;
+  height:80px;
+  font-size:20px;
+  border:none;
+  padding:15px;
+   background:#EA2027;
+   outline:none;
+   border-radius:0px 5px 5px px;
+color:white;
+}
+.send button i{
+  margin-left:10px;
+  font-size:22px;
+  color:white;
+}
+.send input::placeholder{
+  padding-left:20px;
+}
+.section1{
+  width:100vw;
+  height:500px;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  background:black;
+ margin-top:7px;
+}
+.section-item1{
+width:500px;
+}
+.section-item1 h1{
+  color:white;
+  font-size:56px;
+}
+.section-item1 h3{
+  color:white;
+  font-size:25px;
+  margin-top:6px;
+  line-height:35px;
+
+}
+.section-item2 img{
+width:500px;
+height:350px;
+}
+.section2{
+  width:100vw;
+  height:500px;
+  background:black;
+  margin-top:6px;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  
+}
+.section-item3 img{
+  width:500px;
+  height:350px;
+}
+.section-item4 h1{
+  color:white;
+  font-size:56px;
+}
+.section-item4 h3{
+  color:white;
+  font-size:26px;
+  margin-top:12px;
+}
+.section3{
+  width:100vw;
+  height:300px;
+  background:black;
+  margin-top:7px;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+}
+.section-item5{
+  width:600px;
+  height:300px;
+  padding-top:100px;
+}
+.section-item5 h1{
+  color:white;
+  font-size:47px;
+}
+.section-item5  h3{
+  color:white;
+  font-size:26px;
+  line-height:35px;
+}
+.section4{
+  margin-top:7px;
+  width:100vw;
+  height:400px;
+  background:black;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+}
+.section-item6 img{
+  width:400px;
+  height:350px;
+}
+.section-item7 {
+  width:400px;
+  height:300px;
+}
+.section-item7 h1{
+  color:white;
+  font-size:47px;
+}
+.section-item7  h3{
+  color:white;
+  font-size:23px;
+  line-height:35px;
+}
+footer{
+  margin-top:7px;
+  width:100vw;
+  height:400px;
+  background:black;
+  display:flex;
+  align-items:center;
+justify-content:center;
+}
+footer .first{
+  width:300px;
+  height:200px;
+  margin:20px;
+}
+
+footer .first a{
+  color:#95a5a6;
+  font-family: 'Yaldevi', sans-serif;
+  text-decoration:none;
+  margin:5px;
+}
+footer .first li {
+  list-style:none;
+  color:#95a5a6;
+  font-family: 'Yaldevi', sans-serif;
+  text-decoration:none;
+  margin:15px;
+  margin-left:0;
+}
+.footer-item1{
+  padding-bottom:40px;
+}
+footer .first ul li a:hover{
+  text-decoration:underline;
+}
+@media (max-width:640px){
+  *{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+  }
+  header main{
+    box-sizing:border-box;
+    width:100vw;
+    height:500px;
+    background-image:linear-gradient(rgba(5,0,0.5),rgba(0,10,0,0.6)),url("https://i.ibb.co/zZY5LPb/1-5lyav-S59maz-OFnb55-Z6zn-Q.png");
+    background-repeat:none;
+    background-position:center;
+    background-size:cover;
+  }
+  main nav{
+    display:block;
+    text-align:center;
+  }
+  main nav div{
+ 
+padding:10px;
+  }
+  main nav button{
+   margin-top:20px;
+  }
+  main .red{
+    width:100%;
+    height:100%;
+    margin-top:20px;
+  
+  }
+  main .red h1{
+  font-size:30px;
+
+  }
+  main .red h4{
+    font-size:20px;
+  
+    }
+  main .red p{
+    font-size:15px;
+  
+    }
+    main .send{
+      width:400px;
+      height:100%;
+      margin:0 auto;
+      display:flex;
+      padding:20px;
+    }
+    .send input{
+      width:300px;
+      height:43px;
+
+    }
+    .send button{
+width:150px;
+height:43px;
+font-size:14px;
+color:black;
+
+    }
+    .send button i{
+      display:none;
+    }
+    /*first section*/ 
+    .section1{
+      width:100vw;
+      height:350px;
+      display:flex;
+      justify-content:space-around;
+      align-items:center;
+      background:black;
+      padding:20px;
+    }
+  .section-item1 h1{
+    font-size:25px;
+  }
+  .section-item1 h3{
+    font-size:15px;
+  }
+    .section-item2 img{
+      width:150px;
+      height:150px;
+    }
+      /*second section*/ 
+      .section2{
+        width:100vw;
+        height:300px;
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+        background:black;
+        padding:20px;
+      }
+    .section-item4 h1{
+      font-size:22px;
+    }
+    .section-item4 h3{
+      font-size:17px;
+    }
+    .section-item3 img{
+      width:200px;
+      height:200px;
+    }
+
+          /*third section*/ 
+          .section3{
+            width:100vw;
+            height:250px;
+            display:flex;
+            justify-content:space-around;
+            align-items:center;
+            background:black;
+            padding:20px;
+          }
+        .section-item5 h1{
+          font-size:24px;
+        }
+        .section-item5 h3{
+          font-size:18px;
+        }
+             /*4th section*/ 
+      .section4{
+        width:100vw;
+        height:300px;
+        display:flex;
+        justify-content:space-around;
+        place-items:center;
+        background:black;
+        padding:25px;
+      }
+      .section-item7{
+        margin-top:80px;
+      }
+    .section-item7 h1{
+      font-size:20px;
+    }
+    .section-item7 h3{
+      font-size:15px;
+    }
+    .section-item6 img{
+      width:200px;
+      height:200px;
+    }
+footer{
+  width:100vw;
+height:250px;
+  display:grid;
+  grid-template-columns:repeat(2,minmax(200px,200px));
+grid-gap:0px;
+}
+
+}
